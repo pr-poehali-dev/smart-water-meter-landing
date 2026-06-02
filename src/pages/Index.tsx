@@ -1,15 +1,19 @@
 import Navbar from "@/components/landing/Navbar";
-import HeroSection from "@/components/landing/HeroSection";
-import FeaturesAdvantages from "@/components/landing/FeaturesAdvantages";
+import BannerCarousel from "@/components/landing/BannerCarousel";
+import ReliabilitySection from "@/components/landing/ReliabilitySection";
+import ConnectivitySection from "@/components/landing/ConnectivitySection";
 import ContactsSection from "@/components/landing/ContactsSection";
 
 export default function Index() {
   return (
-    <div className="min-h-screen" style={{ background: "#080d14", color: "#d0e8f0" }}>
+    <div className="min-h-screen" style={{ background: "#f0f7ff", color: "#0d1b2a" }}>
       <Navbar />
-      <HeroSection />
-      <FeaturesAdvantages />
-      <ContactsSection />
+      <div className="pt-[60px]">
+        <BannerCarousel />
+        <ReliabilitySection />
+        <ConnectivitySection />
+        <ContactsSection />
+      </div>
     </div>
   );
 }
