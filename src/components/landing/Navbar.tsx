@@ -32,7 +32,7 @@ export default function Navbar() {
           <img
             src="https://cdn.poehali.dev/projects/527349b6-a2ba-4d9e-83eb-5e072259af46/bucket/7921969e-6e11-4161-bf5a-3315e60b3c31.png"
             alt="АкваМетрик"
-            className="h-10 w-auto object-contain"
+            className="h-40 w-auto object-contain"
           />
         </a>
 
