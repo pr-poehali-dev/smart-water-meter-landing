@@ -28,15 +28,13 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-3.5 flex items-center justify-between">
-        <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: "#1976d2" }}>
-            <Icon name="Droplets" size={18} style={{ color: "white" }} />
-          </div>
-          <div>
-            <span className="font-display text-lg font-bold tracking-wide" style={{ color: "#1976d2" }}>АКВА</span>
-            <span className="font-display text-lg font-bold tracking-wide" style={{ color: "#0d1b2a" }}>МЕТРИК</span>
-          </div>
-        </div>
+        <a href="/" className="flex items-center">
+          <img
+            src="https://cdn.poehali.dev/projects/527349b6-a2ba-4d9e-83eb-5e072259af46/bucket/7921969e-6e11-4161-bf5a-3315e60b3c31.png"
+            alt="АкваМетрик"
+            className="h-10 w-auto object-contain"
+          />
+        </a>
 
         <div className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((l) => (

@@ -145,13 +145,14 @@ export default function ContactsSection() {
       {/* FOOTER */}
       <footer className="py-8" style={{ background: "#0d1b2a" }}>
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-lg flex items-center justify-center" style={{ background: "#1976d2" }}>
-              <Icon name="Droplets" size={15} style={{ color: "white" }} />
-            </div>
-            <span className="font-display text-base font-bold tracking-wide" style={{ color: "#1976d2" }}>АКВА</span>
-            <span className="font-display text-base font-bold tracking-wide" style={{ color: "#d0e8f0" }}>МЕТРИК</span>
-          </div>
+          <a href="/" className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/527349b6-a2ba-4d9e-83eb-5e072259af46/bucket/7921969e-6e11-4161-bf5a-3315e60b3c31.png"
+              alt="АкваМетрик"
+              className="h-8 w-auto object-contain"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
+          </a>
           <div className="text-xs" style={{ color: "rgba(208,232,240,0.4)" }}>
             © 2026 АкваМетрик. Все права защищены.
           </div>
